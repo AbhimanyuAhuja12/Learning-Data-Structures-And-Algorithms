@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ARRAYS/ARRAYS.iml" filepath="$PROJECT_DIR$/ARRAYS/ARRAYS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AdvanceJavaPBL/AdvanceJavaPBL.iml" filepath="$PROJECT_DIR$/AdvanceJavaPBL/AdvanceJavaPBL.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Binary_Search/Binary_Search.iml" filepath="$PROJECT_DIR$/Binary_Search/Binary_Search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Clock_project/Clock_project.iml" filepath="$PROJECT_DIR$/Clock_project/Clock_project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Code_Forces_ques/Code_Forces_ques.iml" filepath="$PROJECT_DIR$/Code_Forces_ques/Code_Forces_ques.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FUNCTIONS/FUNCTIONS.iml" filepath="$PROJECT_DIR$/FUNCTIONS/FUNCTIONS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JAVA_PROGRAM/JAVA_PROGRAM.iml" filepath="$PROJECT_DIR$/JAVA_PROGRAM/JAVA_PROGRAM.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Learning-Data-Structures-And-Algorithms.iml" filepath="$PROJECT_DIR$/Learning-Data-Structures-And-Algorithms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Linear_Search/Linear_Search.iml" filepath="$PROJECT_DIR$/Linear_Search/Linear_Search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Recursion/Recursion.iml" filepath="$PROJECT_DIR$/Recursion/Recursion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sliding_window/Sliding_window.iml" filepath="$PROJECT_DIR$/Sliding_window/Sliding_window.iml" />
+      <module fileurl="file://$PROJECT_DIR$/String/String.iml" filepath="$PROJECT_DIR$/String/String.iml" />
+      <module fileurl="file://$PROJECT_DIR$/patterns/patterns.iml" filepath="$PROJECT_DIR$/patterns/patterns.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sorting_alogos/sorting_alogos.iml" filepath="$PROJECT_DIR$/sorting_alogos/sorting_alogos.iml" />
+    </modules>
+  </component>
+</project>
