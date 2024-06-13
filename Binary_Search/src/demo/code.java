@@ -9,7 +9,7 @@ int ans= binarysearch(arr,target);
     }
     // return the index
     //return -1 if element not found
-@org.jetbrains.annotations.Contract(pure = true)
+//@org.jetbrains.annotations.Contract(pure = true)
 static int binarysearch(int[]arr, int target){
         int start=0;
         int end=arr.length-1;
