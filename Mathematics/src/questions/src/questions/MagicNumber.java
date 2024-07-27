@@ -1,4 +1,4 @@
-package questions;
+package questions.src.questions;
 
 public class MagicNumber {
     public static void main(String[] args) {

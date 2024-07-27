@@ -9,7 +9,7 @@ public class Factors {
 
     }public static void findFactors(int n){
         for (int i = 0; i*i <=n ; i++) {
-            System.out.println(i + " "+n/i );
+            System.out.println(i + " "+ n/i );
         }
     }
 }
