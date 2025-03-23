@@ -1,2 +1,8 @@
-package Interfaces;public interface Media {
+package Interfaces;
+
+public interface Media {
+
+    void start();
+
+    void stop();
 }

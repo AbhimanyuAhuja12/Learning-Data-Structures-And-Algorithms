@@ -1,19 +1,22 @@
 package Abstraction;
 
-public class Child2 {
-    public static void main(String[] args) {
-        Parent daughter = new Parent() {
+public class Daughter extends Parent{
 
-            void career() {
-                System.out.println("daughter's career");
+    void helper(){
+        System.out.println("will clear all doubts");
+    }
+
+
+    public Daughter(int age) {
+        super(age);
+    }
+
+    void career() {
+                System.out.println("SDE");
             }
 
 
             void partner() {
                 System.out.println("Abhimanyu ahuja");
             }
-        };
-    }
-
-
 }

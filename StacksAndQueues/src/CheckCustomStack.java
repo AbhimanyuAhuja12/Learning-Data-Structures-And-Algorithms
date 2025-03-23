@@ -34,6 +34,8 @@ public class CheckCustomStack {
         System.out.println(stack.pop());
         System.out.println(stack.pop());
 
+      
+
 
     }
 }

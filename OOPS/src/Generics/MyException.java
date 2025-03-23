@@ -1,2 +1,7 @@
-package Generics;public class MyException {
+package Generics;
+
+public class MyException extends Exception{
+    public MyException(String message){
+        super(message);
+    }
 }

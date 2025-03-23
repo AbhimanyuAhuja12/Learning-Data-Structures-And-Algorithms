@@ -1,5 +1,7 @@
 package Inheritance;
 
+import Polymorphism.child;
+
 public class Box {
 
     int[] specs =new int[]{36,28,36};
@@ -15,6 +17,10 @@ public class Box {
 
     public void greeting(){
         System.out.println("Parent class");
+    }
+
+    public static void main(String[] args) {
+        child obj = new child();
     }
 }
 

@@ -11,14 +11,19 @@ public class Stacks {
         stack.push(45);
         stack.push(31);
         stack.push(7);
+
         System.out.println(stack.capacity());// initial capacity is 10
         System.out.println(stack.search(58));
         System.out.println(stack.elementAt(3));
-        Stack<Integer>copy = (Stack<Integer>) stack.clone();
-        System.out.println(copy);
+        System.out.println(stack.push(45));
+//        Stack<Integer>copy = (Stack<Integer>) stack.clone();
+//        System.out.println(copy);
+
+
 
         Stack<String> curr = new Stack<>();
         curr.push("abhi");
+
 
 
         System.out.println(stack.pop());

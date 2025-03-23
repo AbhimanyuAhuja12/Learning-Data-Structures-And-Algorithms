@@ -1,2 +1,6 @@
-package Interfaces;public interface Brakes {
+package Interfaces;
+
+public interface Brakes {
+
+     void  brake();
 }

@@ -12,6 +12,13 @@ public class Main {
         System.out.println(one.Name);
 
 
+        String str1="hello";
+        String str2= new String("hello");
+        if(str1==str2) System.out.println("they are equal");else System.out.println("they are not equal");
+
+        
+
+
     }
 }
 
