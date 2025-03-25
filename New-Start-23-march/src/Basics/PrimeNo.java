@@ -1,6 +1,12 @@
 package Basics;
 import java.util.Scanner;
 
+/*
+constraints
+1<= T <=10000
+1<= n <= 10^9
+*/
+
 public class PrimeNo {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
@@ -27,4 +33,23 @@ public class PrimeNo {
         }
         input.close();
     }
+
+    /*
+    for(int i =0 ;i<T ;i++){
+      int n = input.nextInt();
+      int count =0;
+
+      for(int div =2;div*div<=n;div++){
+          if(n%div==0){
+            count++;
+            break;
+          }
+      }
+
+      if(count==0) System.out.println("Prime No");
+      else System.out.println("Not prime);
+    }
+
+
+     */
 }
