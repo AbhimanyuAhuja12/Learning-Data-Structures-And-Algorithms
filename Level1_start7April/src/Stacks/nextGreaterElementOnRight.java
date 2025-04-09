@@ -13,8 +13,9 @@ public class nextGreaterElementOnRight {
             arr[i] = input.nextInt();
         }
         input.close();
-        findNextGreatest(arr, n);
+//        findNextGreatest(arr, n);
         System.out.println(Arrays.toString(arr));
+        System.out.println(Arrays.toString(findNextGreatest2(arr, n)));
     }
 
     public static void findNextGreatest(int[] arr, int length) {
@@ -34,6 +35,29 @@ public class nextGreaterElementOnRight {
             stack.push(current);
 
         }
+    }
+
+    public static int[] findNextGreatest2(int[] arr, int length) {
+        //-a,+
+        int[] nge = new int[length];
+        Stack<Integer> stack = new Stack<>();
+        stack.push(0);
+
+        for (int i = 1; i < length; i++) {
+            while (!stack.isEmpty() && arr[i] > arr[stack.peek()]) {
+                int pos = stack.peek();
+                nge[pos] = arr[i];
+                stack.pop();
+            }
+            stack.push(i);
+        }
+
+        while (!stack.isEmpty()) {
+            int pos = stack.peek();
+            nge[pos] = -1;
+            stack.pop();
+        }
+        return nge;
     }
 }
 
