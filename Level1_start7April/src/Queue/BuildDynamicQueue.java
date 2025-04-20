@@ -1,19 +1,30 @@
 package Queue;
 
-public class BuildNormalQueue {
-    public static class CustomQueue {
-        private final int[] data = new int[20];
+public class BuildDynamicQueue {
+    public static class CustomDynamicQueue {
+        private int[] data = new int[20];
         private int front = 0;
         private int size = 0;
 
         public void add(int value) {
             if (size == data.length) {
-                System.out.println("Queue is full");
-                return;
+                int[] newArr = new int[data.length * 2];
+                for (int i = 0; i < size; i++) {
+                    int temp = (front + i) % data.length;
+                    newArr[i] = data[temp];
+                }
+                data = newArr;
+                front = 0;
+
+                int idx = (front + size) % data.length;
+                data[idx] = value;
+                size++;
+
+            } else {
+                int idx = (front + size) % data.length;
+                data[idx] = value;
+                size++;
             }
-            int rear = (front + size) % data.length;
-            data[rear] = value;
-            size++;
         }
 
         public int remove() {
@@ -22,7 +33,7 @@ public class BuildNormalQueue {
                 return -1;
             }
             int value = data[front];
-            front = (front+1)%data.length;
+            front = (front + 1) % data.length;
             size--;
             return value;
         }
@@ -39,7 +50,7 @@ public class BuildNormalQueue {
             System.out.print("Queue: ");
             for (int i = 0; i < size; i++) {
                 int temp = (front + i) % data.length;
-                System.out.print(data[temp]+",");
+                System.out.print(data[temp] + ",");
             }
             System.out.println();
         }
@@ -50,7 +61,7 @@ public class BuildNormalQueue {
     }
 
     public static void main(String[] args) {
-        CustomQueue queue = new CustomQueue();
+        CustomDynamicQueue queue = new CustomDynamicQueue();
 //        queue.add(23);
 //        queue.add(3);
 //        queue.add(2);
