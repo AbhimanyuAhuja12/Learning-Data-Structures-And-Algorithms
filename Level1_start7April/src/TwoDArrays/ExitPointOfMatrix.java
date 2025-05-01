@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 /**
- * This program finds the exit point of a matrix. Starting at the top-left corner (0,0),
+ * This program finds the exit point of a matrix. Starting in the top-left corner (0,0),
  * the direction of movement changes based on the cell's value (0 or 1).
  * If the traversal exits the matrix boundary, the program returns the last valid position.
  */
@@ -19,6 +19,7 @@ public class ExitPointOfMatrix {
                 matrix[i][j] = input.nextInt();
             }
         }
+
 
         System.out.println(Arrays.toString(findExit(matrix)));
     }
