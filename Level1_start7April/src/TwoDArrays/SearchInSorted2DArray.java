@@ -1,5 +1,6 @@
 package TwoDArrays;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class SearchInSorted2DArray {
@@ -15,9 +16,20 @@ public class SearchInSorted2DArray {
         }
         int target = input.nextInt();
         input.close();
-        System.out.println(search(matrix,target));
+        System.out.println(Arrays.toString(search(matrix,target)));
     }
-    private static int search(int[][]matrix , int target){
-
+    private static int[] search(int[][]matrix , int target){
+          int i = 0;
+          int j = matrix.length-1;
+          while(i<matrix.length && j>=0){
+              if(matrix[i][j]==target){
+                  return new int[]{i,j};
+              }else if(matrix[i][j]<target){
+                  i++;
+              }else{
+                  j--;
+              }
+          }
+          return new int[]{-1,-1};
     }
 }
