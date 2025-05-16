@@ -25,9 +25,13 @@ public class RotateAMatrix {
     private static void rotateMatix(int[][] matrix) {
         // first we will take transpose
         for (int i = 0; i < matrix.length; i++) {
-            for (int j = i; j < matrix.length; j++) {
-                // we cant swap the whole matrix , we only have to swap the upper triangular part
-                // because we swap the whole matrix , for some elements , there will 2 swaps
+            for (int j = i+1; j < matrix.length; j++) {
+                /*
+                 we cant swap the whole matrix , we only have to swap the upper triangular part
+                 because we swap the whole matrix , for some elements , there will 2 swaps
+                 we can use j = i and j=i+1 both as j=i will swap diagonal elements with itself
+                 ,it is harmless  but j = i+1 will do less swaps , so better optimized
+                 */
 
                 // swap
                 int temp = matrix[i][j];
