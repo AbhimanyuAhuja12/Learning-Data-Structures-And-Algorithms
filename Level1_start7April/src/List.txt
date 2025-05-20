@@ -1,0 +1,21 @@
+Recursion{
+Print Decreasing
+Print Increasing
+Print Decreasing Increasing
+
+Factorial
+Power Linear and Logarithmic
+Print Zig Zag
+Tower of Hanoi
+
+Display an Array
+Display array in reverse
+Maximum of an Array
+Find Index of Occurrence
+
+Last Index Occurrence
+All Indices in Array
+
+Get Subsequences
+Generate Combinations
+}
