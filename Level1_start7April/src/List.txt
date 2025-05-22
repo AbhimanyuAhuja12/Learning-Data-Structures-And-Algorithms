@@ -20,4 +20,7 @@ Get Subsequences
 Generate Combinations
 
 Get Stairs Path
+
+Get Maze Paths
+Get Maze Paths with Jump
 }

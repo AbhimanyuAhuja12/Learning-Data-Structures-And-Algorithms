@@ -25,8 +25,10 @@ public class GetKeypadCombinations {
 
         ArrayList<String> result = new ArrayList<>();
         for(String itr : risa){
-            int ptr = ch-'0';
-            String helper = arr[ptr];
+             //  int ptr = ch-'0';
+            //   '0' = 48   '6' = 54
+            //   '6' - '0' = 6
+            String helper = arr[ch-'0'];
             for(int i=0;i<helper.length();i++){
                 char c = helper.charAt(i);
                 result.add(c + itr);
