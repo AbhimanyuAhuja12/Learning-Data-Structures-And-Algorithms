@@ -23,4 +23,10 @@ Get Stairs Path
 
 Get Maze Paths
 Get Maze Paths with Jump
+
+Print Subsequence
+Print Stairs Path
+Print Keypad Combinations
+Print Maze Path
+Print Maze Path With Jumps
 }
