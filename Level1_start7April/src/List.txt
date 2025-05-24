@@ -29,4 +29,10 @@ Print Stairs Path
 Print Keypad Combinations
 Print Maze Path
 Print Maze Path With Jumps
+
+Print Permutations
+Print Encodings
+
+
+
 }
