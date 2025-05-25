@@ -31,6 +31,9 @@ public class FloodFill {
         // Mark the cell as visited
         maze[rowPtr][colPtr] = -1;
 
+        // instead of putting -1 and again putting 0 , we can make a boolean matrix of size maze
+        // and put true and false
+
         // Explore all 4 directions
         findPaths(maze, path + "T", rowPtr - 1, colPtr); // Top
         findPaths(maze, path + "L", rowPtr, colPtr - 1); // Left

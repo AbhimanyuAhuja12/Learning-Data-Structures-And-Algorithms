@@ -33,6 +33,9 @@ Print Maze Path With Jumps
 Print Permutations
 Print Encodings
 
+Flood Fill
+Target Sum Subset
+
 
 
 }
