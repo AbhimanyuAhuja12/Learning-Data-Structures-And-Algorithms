@@ -1,4 +1,4 @@
-Recursion{
+Recursion Level1{
 Print Decreasing
 Print Increasing
 Print Decreasing Increasing
@@ -36,6 +36,7 @@ Print Encodings
 Flood Fill
 Target Sum Subset
 
-
+NQueens
+Knight Tours
 
 }
