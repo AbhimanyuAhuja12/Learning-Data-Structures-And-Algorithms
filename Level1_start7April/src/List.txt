@@ -33,11 +33,11 @@ Print Maze Path With Jumps
 Print Permutations
 Print Encodings
 
-Flood Fill
+*Flood Fill
 Target Sum Subset
 
-NQueens
-Knight Tours
+*NQueens
+*Knight Tours
 
 }
 
@@ -47,6 +47,8 @@ Fibonacci Number
 Climbing Stairs
 Climb Stairs With Variable Jumps
 
+*Climb Stairs With Minimum Moves
+Minimum Cost Path
 
 
 }
