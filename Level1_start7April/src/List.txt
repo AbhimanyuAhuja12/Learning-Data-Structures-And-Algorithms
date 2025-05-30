@@ -49,7 +49,9 @@ Climb Stairs With Variable Jumps
 
 *Climb Stairs With Minimum Moves
 
-Minimum Cost Path
+*Minimum Cost Path
+
+Goldmine
 
 
 }
