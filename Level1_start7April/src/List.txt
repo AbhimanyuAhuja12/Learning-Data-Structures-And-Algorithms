@@ -53,5 +53,8 @@ Climb Stairs With Variable Jumps
 
 Goldmine
 
+Target Sum Subsets
+Coin Change Combination
+
 
 }
