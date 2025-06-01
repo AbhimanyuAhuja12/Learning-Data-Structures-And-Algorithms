@@ -56,5 +56,7 @@ Goldmine
 Target Sum Subsets
 Coin Change Combination
 
+Coin Chane Permutations
+
 
 }
