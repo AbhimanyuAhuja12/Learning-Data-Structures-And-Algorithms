@@ -60,4 +60,7 @@ Coin Chane Permutations
 
 Zero One Knapsack
 
+Unbounded Knapsack
+Count Binary Strings
+
 }
