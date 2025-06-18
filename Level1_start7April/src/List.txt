@@ -71,4 +71,8 @@ Count Encodings(16th june)
 Count Subsequences of type a^ib^jc^k (17th june)
 Maximum Sum Non Adjacent Element (17th june)
 
+Paint House 3 colors  (18th june)
+Paint House Many Colors (18th june)
+Paint Fence (18th june)
+
 }
