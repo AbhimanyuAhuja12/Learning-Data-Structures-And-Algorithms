@@ -31,7 +31,7 @@ Print Maze Path
 Print Maze Path With Jumps
 
 Print Permutations
-Print Encodings
+**Print Encodings
 
 *Flood Fill
 Target Sum Subset
@@ -65,5 +65,10 @@ Unbounded Knapsack
 Count Binary Strings
 
 Arrange Buildings
+
+Count Encodings(16th june)
+
+Count Subsequences of type a^ib^jc^k (17th june)
+Maximum Sum Non Adjacent Element (17th june)
 
 }
