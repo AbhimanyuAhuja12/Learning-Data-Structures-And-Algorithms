@@ -11,12 +11,13 @@ public class MaximumSumNonAdjacentElement {
             values[i] = input.nextInt();
         }
         input.close();
-        int[] dp = new int[values.length+1];
-        for(int i =0;i<dp.length;i++){
-            dp[i] =-1;
+        int[] dp = new int[values.length + 1];
+        for (int i = 0; i < dp.length; i++) {
+            dp[i] = -1;
         }
         System.out.println(MaximumSumRec(values, 0, false));
-        System.out.println(MaximumSumMemo(values,0,dp));
+        System.out.println(MaximumSumMemo(values, 0, dp));
+        System.out.println(MaximumSumTab(values));
     }
 
     private static int MaximumSumRec(int[] arr, int index, boolean prevIncluded) {
@@ -33,6 +34,7 @@ public class MaximumSumNonAdjacentElement {
             return Math.max(include, exclude);
         }
     }
+
     public static int MaximumSumRec2(int[] arr, int index) {
         // Base Case: when index is out of bounds
         if (index >= arr.length) return 0;
@@ -47,18 +49,31 @@ public class MaximumSumNonAdjacentElement {
         return Math.max(include, exclude);
     }
 
-    public static int MaximumSumMemo(int[] arr, int index,int[] dp) {
+    public static int MaximumSumMemo(int[] arr, int index, int[] dp) {
         if (index >= arr.length) return 0;
 
-        if(dp[index]!=-1){
+        if (dp[index] != -1) {
             return dp[index];
         }
 
-        int include = arr[index] + MaximumSumMemo(arr, index + 2,dp);
+        int include = arr[index] + MaximumSumMemo(arr, index + 2, dp);
 
-        int exclude = MaximumSumMemo(arr, index + 1 , dp);
+        int exclude = MaximumSumMemo(arr, index + 1, dp);
 
-        dp[index]= Math.max(include,exclude);
+        dp[index] = Math.max(include, exclude);
         return dp[index];
+    }
+
+    public static int MaximumSumTab(int[] arr) {
+        int included = arr[0];
+        int excluded = 0;
+
+        for (int i = 1; i < arr.length; i++) {
+          int temp=excluded;
+          excluded=Math.max(included,excluded);
+          included=temp+arr[i];
+
+        }
+        return Math.max(included,excluded);
     }
 }
