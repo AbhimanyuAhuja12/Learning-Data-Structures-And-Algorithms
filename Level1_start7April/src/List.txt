@@ -75,4 +75,8 @@ Paint House 3 colors  (18th june)
 Paint House Many Colors (18th june)
 Paint Fence (18th june)
 
+Tiling with Dominoes (2*1 tile && 2*n floor) (19th june)
+Tiling with Dominoes (M*1 tile && M*1 floor) (19th june)
+Domino and Tromino Tiling (19th june)
+
 }
