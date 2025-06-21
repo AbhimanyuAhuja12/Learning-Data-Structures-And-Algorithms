@@ -79,4 +79,7 @@ Tiling with Dominoes (2*1 tile && 2*n floor) (19th june)
 Tiling with Dominoes (M*1 tile && M*1 floor) (19th june)
 Domino and Tromino Tiling (19th june)
 
+Friends Pairing Problem (20nd june)
+Partition into Subsets (20nd june)
+
 }
