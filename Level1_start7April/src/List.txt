@@ -79,7 +79,10 @@ Tiling with Dominoes (2*1 tile && 2*n floor) (19th june)
 Tiling with Dominoes (M*1 tile && M*1 floor) (19th june)
 Domino and Tromino Tiling (19th june)
 
-Friends Pairing Problem (20nd june)
-Partition into Subsets (20nd june)
+Friends Pairing Problem (20th june)
+Partition into Subsets (20th june)
+
+Buy And Sell Stock (1 transition allowed)  (21st june)
+Buy And Sell Stock (Infinite Transition allowed , but no overlapping transition) (21st june)
 
 }
